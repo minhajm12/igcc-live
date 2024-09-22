@@ -1,7 +1,8 @@
 <footer id="footer_section">
     <div class="main-padding">
         <div class="row">
-            <div class="col-lg-4 col-md-6 col-12 column-1">
+            <div class="col-lg-4 col-md-6 col-12 column-1" data-aos="fade-left" data-aos-duration="1000"
+                data-aos-delay="100">
                 <div class="d-flex flex-column gap-md-5 gap-4">
                     <a href="index.html">
                         <div class="footer-logo-div">
@@ -20,7 +21,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-2 col-md-3 col-6 column-2 mt-md-0 mt-4">
+            <div class="col-lg-2 col-md-3 col-6 column-2 mt-md-0 mt-4" data-aos="fade-left" data-aos-duration="1000"
+                data-aos-delay="200">
                 <div class="d-flex flex-column gap-md-4 gap-3 ps-2">
                     <h5>Quick Links</h5>
                     <ul class="p-0">
@@ -40,18 +42,26 @@
                             <a href="course.html">Courses</a>
                         </li>
                         <li>
-                            <a href="faq.html">FAQ</a>
-                        </li>
-                        <li>
                             <a href="verify-report.html">Verify Report</a>
                         </li>
+                        <li>
+                            <a href="blogs.html">Blogs</a>
+                        </li>
+                        <li>
+                            <a href="faq.html">FAQ</a>
+                        </li>
+                        <!-- <li>
+                            <a href="verify-report.html">Certificate</a>
+                        </li> -->
+
                         <li>
                             <a href="">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-2 col-md-3 col-6 column-3 mt-md-0 mt-4">
+            <div class="col-lg-2 col-md-3 col-6 column-3 mt-md-0 mt-4" data-aos="fade-left" data-aos-duration="1000"
+                data-aos-delay="300">
                 <div class="d-flex flex-column gap-md-4 gap-3">
                     <h5>Quick Links</h5>
                     <ul class="p-0">
@@ -79,20 +89,31 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-12 col-12 address-col mt-lg-0 mt-md-4 mt-3">
+            <div class="col-lg-4 col-md-12 col-12 address-col mt-lg-0 mt-md-4 mt-3" data-aos="fade-left"
+                data-aos-duration="1000" data-aos-delay="400">
                 <div class="d-flex flex-lg-column flex-md-row flex-column justify-content-between">
                     <div class="d-flex flex-column gap-md-4 gap-3">
                         <h5>Contact Details</h5>
                         <ul class="nav nav-pills flex-row" id="pills-tab" role="tablist">
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link active" id="pills-kerala-tab" data-bs-toggle="pill" data-bs-target="#pills-kerala" type="button" role="tab" aria-controls="pills-kerala" aria-selected="true">kerala</button>
+                                <button class="nav-link active" id="pills-calicut-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-calicut" type="button" role="tab"
+                                    aria-controls="pills-calicut" aria-selected="true">Calicut</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="pills-mumbai-tab" data-bs-toggle="pill" data-bs-target="#pills-mumbai" type="button" role="tab" aria-controls="pills-mumbai" aria-selected="false">mumbai</button>
+                                <button class="nav-link" id="pills-mumbai-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-mumbai" type="button" role="tab" aria-controls="pills-mumbai"
+                                    aria-selected="false">Mumbai</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-thrissur-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-thrissur" type="button" role="tab"
+                                    aria-controls="pills-thrissur" aria-selected="false">Thrissur</button>
                             </li>
                         </ul>
                         <div class="tab-content" id="pills-tabContent">
-                            <div class="tab-pane fade show active" id="pills-kerala" role="tabpanel" aria-labelledby="pills-kerala-tab" tabindex="0">
+                            <div class="tab-pane fade show active" id="pills-calicut" role="tabpanel"
+                                aria-labelledby="pills-calicut-tab" tabindex="0">
                                 <div class="d-flex flex-column gap-2 address-details">
                                     <div class="d-flex align-items-start gap-3">
                                         <img src="assets/img/svg/location.svg" alt="" class="img-fluid">
@@ -108,11 +129,29 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="pills-mumbai" role="tabpanel" aria-labelledby="pills-mumbai-tab" tabindex="0">
+                            <div class="tab-pane fade" id="pills-mumbai" role="tabpanel"
+                                aria-labelledby="pills-mumbai-tab" tabindex="0">
                                 <div class="d-flex flex-column gap-2 address-details">
                                     <div class="d-flex align-items-start gap-3">
                                         <img src="assets/img/svg/location.svg" alt="" class="img-fluid">
                                         <p>112/C, Amrit Diamond House, Opera House, Mumbai-04</p>
+                                    </div>
+                                    <div class="d-flex align-items-start gap-3">
+                                        <img src="assets/img/svg/phone.svg" alt="" class="img-fluid">
+                                        <a href="">+91 85929 95500</a>
+                                    </div>
+                                    <div class="d-flex align-items-start gap-3">
+                                        <img src="assets/img/svg/mail.svg" alt="" class="img-fluid">
+                                        <a href="">igcc.calicut@gmail.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-thrissur" role="tabpanel"
+                                aria-labelledby="pills-thrissur-tab" tabindex="0">
+                                <div class="d-flex flex-column gap-2 address-details">
+                                    <div class="d-flex align-items-start gap-3">
+                                        <img src="assets/img/svg/location.svg" alt="" class="img-fluid">
+                                        <p>James tower, Vilyannur Ring Rd, Veliyannur, Thrissur, Kerala 680021</p>
                                     </div>
                                     <div class="d-flex align-items-start gap-3">
                                         <img src="assets/img/svg/phone.svg" alt="" class="img-fluid">

@@ -22,25 +22,25 @@
                 <div class="offcanvas-body">
                     <div class="justify-content-end" id="">
                         <ul class="navbar-nav">
-                            <li class="nav-item" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
+                            <li class="nav-item" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">
                                 <a class="nav-link p-0" href="index.html">Home</a>
                             </li>
-                            <li class="nav-item" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+                            <li class="nav-item" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
                                 <a class="nav-link p-0" href="about.html">About</a>
                             </li>
-                            <li class="nav-item" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                            <li class="nav-item" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
                                 <a class="nav-link p-0" href="reports.html">Reports</a>
                             </li>
-                            <li class="nav-item" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                            <li class="nav-item" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
                                 <a class="nav-link p-0" href="services.html">Services</a>
                             </li>
                             <li class="nav-item" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
                                 <a class="nav-link p-0" href="course.html">Course</a>
                             </li>
-                            <li class="nav-item" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                            <li class="nav-item" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
                                 <a class="nav-link p-0" href="contact.html">Contact</a>
                             </li>
-                            <a class="main-btn d-lg-none d-block" href="verify-report.html">Verify Report</a>
+                            <a class="main-btn d-lg-none d-block" href="verify-report.html" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0">Verify Report</a>
                         </ul>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                     aria-controls="offcanvasResponsive" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
                     <img src="assets/img/svg/menu-bar.svg" alt="">
                 </button>
-                <a class="main-btn d-md-block d-none" href="verify-report.html">verify report</a>
+                <a class="main-btn d-md-block d-none" href="verify-report.html" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">verify report</a>
             </div>
 
 
@@ -62,3 +62,8 @@
 
 <!-- SMOOTH SCROLL -->
 <script src="assets/js/lib/SmoothScrollMouseWheel.js"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>

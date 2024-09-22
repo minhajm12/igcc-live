@@ -1,4 +1,4 @@
-#cta_section{
+#cta_section {
     padding: 5% 0;
     background: url("../img/cta-bg.jpg");
     background-size: cover;
@@ -9,14 +9,16 @@
     display: flex;
     justify-content: center;
 }
-#cta_section .main-cta{
+
+#cta_section .main-cta {
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
     width: 30%;
 }
-.light-btn{
+
+.light-btn {
     padding: 8px 30px;
     background: transparent;
     border: 1px solid #fff;
@@ -28,42 +30,123 @@
     text-transform: capitalize;
     width: fit-content;
     transition: .3s ease;
-  }
-  .light-btn:hover{
-    border:1px solid transparent;
+}
+
+.light-btn:hover {
+    border: 1px solid transparent;
     background: #fff;
     color: #000;
-  }
+}
+
+
+
+
+
+#certification_modal .modal-content {
+    padding: 50px 12% !important;
+}
+#certification_modal .btn-close{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    box-shadow: none !important;
+}
+.modal-dialog {
+    max-width: 40% !important;
+}
+
+#certification_modal .modal-content h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#certification_modal .input-div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#certification_modal .input-div label {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+#certification_modal input,
+#certification_modal select,
+#certification_modal textarea {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background: #F5F5F5;
+}
+
+#certification_modal input::placeholder,
+#certification_modal select::placeholder,
+#certification_modal textarea::placeholder {
+    font-size: 14px;
+}
 
 
 
 
 
 
-@media screen and (max-width: 1536px){
-    #cta_section .main-cta{
+
+
+
+
+
+@media screen and (max-width: 1536px) {
+    #cta_section .main-cta {
         width: 40%;
     }
 }
 
 
 
-@media only screen and (max-width: 992px){
-    #cta_section .main-cta{
-        width: 60%;
-        gap: 10px;
+@media screen and (max-width: 1200px){
+    .modal-dialog {
+        max-width: 60% !important;
     }
 }
 
-@media only screen and (max-width: 768px)
-{
-    #cta_section{
+
+@media only screen and (max-width: 992px) {
+    #cta_section .main-cta {
+        width: 60%;
+        gap: 10px;
+    }
+
+    .modal-dialog {
+        max-width: 70% !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #cta_section {
         padding: 15% 0;
     }
-    #cta_section .main-cta{
+
+    #cta_section .main-cta {
         width: 90%;
     }
-    .light-btn{
+
+    .light-btn {
         font-size: 14px;
+    }
+
+
+
+    .modal-dialog {
+        max-width: 100% !important;
+    }
+
+    #certification_modal .modal-content {
+        padding: 50px 8% !important;
+    }
+
+    #certification_modal .modal-content h2 {
+        font-size: 18px;
     }
 }

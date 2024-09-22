@@ -1,0 +1,128 @@
+#certificate_main_section{
+    padding: 5% 0;
+}
+#certificate_main_section .certificate-details{
+    padding: 40px;
+    border: 1px solid #000;
+}
+.certificate-main{
+    padding: 0 15%;
+}
+.certificate-details .header-section .logo{
+    height: 100px;    
+}
+.certificate-details .header-section .client-logo{
+    height: 100px;
+}
+.details-section .jewel-img{
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+}
+
+table tbody {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+table tr {
+    display: flex;
+    gap: 10px
+}
+
+table tr td:first-child {
+    width: 50%
+}
+
+table tr td:last-child {
+    width: 70%
+}
+
+table tr td {
+    font-size: 18px;
+    line-height: 20px
+}
+
+table tr td strong {
+    font-weight: 800
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px){
+    .details-section .jewel-img{
+        width: 200px;
+        height: 100px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .details-section .jewel-img{
+        width: 350px;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    .certificate-main{
+        padding: 0 3%;
+    }
+
+    #certificate_main_section .certificate-details{
+        padding: 30px;
+    }
+    .certificate-details .header-section .logo{
+        height: 70px;
+    }
+    .certificate-details .header-section .client-logo{
+        height: 70px;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+
+    #certificate_main_section{
+        padding: 10% 0;
+    }
+
+
+
+    #certificate_main_section .certificate-details{
+        padding: 20px;
+    }
+    .certificate-details .header-section .logo{
+        height: 40px;
+    }
+    .certificate-details .header-section .client-logo{
+        height: 40px;
+    }
+
+    table tr td {
+        font-size: 14px;
+        line-height: 16px
+    }
+    table tbody {
+        gap: 5px
+    }
+
+    .details-section .jewel-img{
+        width: 250px;
+        height: 100px;
+    }
+
+    #certificate_main_section .top-section img{
+        width: 50px;
+    }
+}

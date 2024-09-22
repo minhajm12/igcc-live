@@ -178,8 +178,8 @@
 }
 #branches_main_section .branches-main{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 0 15%;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 2%;
     margin-top: 20px;
     gap: 20px;
 }
@@ -278,10 +278,16 @@
 
     #branches_main_section .branches-main{
         padding: 0 5%;
-        padding: 20px;
+        padding: 0px;
     }
     #branches_main_section .branches p{
         width: 100%;
+    }
+    #branches_main_section .branches h5{
+        font-size: 18px;
+    }
+    #branches_main_section .branches{
+        padding: 30px 20px;
     }
 }
 
@@ -347,6 +353,9 @@
     }
     #branches_main_section .branches p{
         width: 100%;
+    }
+    #branches_main_section .branches{
+        padding: 30px;
     }
 }
 

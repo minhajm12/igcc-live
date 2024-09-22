@@ -115,7 +115,7 @@
 
   /* Footer Style */
   #footer_section{
-    padding: 8% 0 0 0 ;
+    padding: 5% 0 0 0 ;
   }
   #footer_section .newsletter-section form{
     width: 80%;
@@ -360,6 +360,9 @@
   padding: 0 5px;
   width: 90%;
 }
+#footer_section .address-col{
+  padding-right: 20px !important;
+}
 
 
 #inner_banner_main .banner-img-div{
@@ -376,8 +379,10 @@
 
 @media only screen and (max-width: 380px){
   .main-para{
-    /* font-size: 16px; */
     line-height: 18px;
-    /* font-weight: 400; */
+  }
+  #footer_section .address-col .nav-link{
+    padding: 5px 15px;
+    font-size: 14px;
   }
 }
