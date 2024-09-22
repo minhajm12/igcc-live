@@ -1,0 +1,480 @@
+/* HERO SECTION STYLE */
+
+#hero-section .banner-head {
+    font-size: 42px;
+    font-weight: 700;
+    color: #000;
+    width: 60%;
+    text-transform: capitalize;
+}
+
+#hero-section .left-section {
+    display: flex;
+}
+
+#hero-section .banner-carousel .item {
+    width: 100%;
+}
+
+#hero-section .banner-img-div {
+    overflow: hidden;
+    height: 80vh;
+}
+
+#hero-section .banner-img-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#hero-section .owl-nav .owl-next {
+    background-image: url(../img/svg/banner-next.svg) !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    width: 45px !important;
+    height: 45px !important;
+    transition: .3s ease;
+    border-radius: 0 !important;
+}
+
+#hero-section .owl-nav .owl-next:hover {
+    background-image: url(../img/svg/banner-next-hover.svg) !important;
+}
+
+#hero-section .owl-nav .owl-prev {
+    background: url(../img/svg/banner-prev.svg) !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    width: 45px !important;
+    height: 45px !important;
+    transition: .3s ease;
+    border-radius: 0 !important;
+}
+
+#hero-section .owl-nav .owl-prev:hover {
+    background: url(../img/svg/banner-prev-hover.svg) !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}
+
+#hero-section .owl-nav {
+    display: flex !important;
+    gap: 5px;
+    /* justify-content: end; */
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1;
+}
+
+#hero-section .owl-nav span {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ABOUT_CSS */
+#about-section {
+    padding: 6% 0;
+}
+
+#about-section .about-service-sec {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#about-section .about-service-sec .img-div {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+#about-section .about-service-sec .img-div:hover .icon {
+    transform: scale(1.1);
+}
+
+#about-section .bg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+#about-section .icon {
+    transform-origin: center center;
+    transition: .3s ease;
+}
+
+#about-section .about-service-sec{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+#about-section .about-service-sec h5 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 5px !important;
+}
+#about-section .about-service-sec .content{
+    padding: 10px 0;
+}
+#about-section .about-service-sec .content .main-para{
+    font-size: 16px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HOME CTA SECTION CSS */
+#cta_section_home{
+    padding:8% 0;
+    background:url('../img/home-cta-section-bg.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#cta_section_home .right-side-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#cta_section_home .right-side-section h6{
+    font-size: 26px;
+    color: #fff;
+}
+#cta_section_home .right-side-section .img-div{
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* GEMSTONE GUIDE SECTION CSS */
+#gemstone-guide-section{
+    padding: 8% 0;
+}
+#gemstone-guide-section .left-section{
+    padding-right: 80px;
+    display: flex;
+    align-items: center;
+}
+#gemstone-guide-section .guides-items{
+    padding: 20px;
+    background: #F6F6F6;
+    border-radius: 10px;
+    /* display: flex;
+    align-items: center;
+    gap: 20px; */
+}
+#gemstone-guide-section .guides-items img{
+    /* width: 12%; */
+}
+#gemstone-guide-section .guides-items .contents{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#gemstone-guide-section .guides-items .contents h6{
+    font-size: 22px;
+    font-weight: 700;
+}
+#gemstone-guide-section .guides-items .contents .main-para{
+    font-size: 16px !important;
+}
+#gemstone-guide-section .bottom-section h6{
+    font-size: 22px;
+    font-weight: 400;
+    width: 45%;
+}
+#gemstone-guide-section .bottom-section a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* IGCC EDUCATION SECTION CSS */
+#igcc-education-section{
+    padding: 0 0 8% 0;
+}
+#igcc-education-section .right-section{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+#igcc-education-section .img-section{
+    display: flex;
+    gap: 30px;
+    justify-content: start;
+}
+#igcc-education-section .img-section .img-div{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+#igcc-education-section .img-section .img-div img{
+    transition: .3s ease;
+    object-position: center center;
+}
+#igcc-education-section .img-section .img-div img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#blogs_section{
+    padding: 0 0 0 0;
+}
+#blogs_section .blog-item{
+    display: flex;
+    flex-direction: column;
+}
+#blogs_section .blog-item:hover img{
+    transform: scale(1.1);
+}
+#blogs_section .blog-item .img-div{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#blogs_section .blog-item .img-div img{
+    transition: .3s ease;
+}
+#blogs_section .blog-item .blog-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+#blogs_section .blog-item .blog-content h6{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+}
+#blogs_section .blog-item .blog-para{
+    font-size: 16px;
+    line-height: 18px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1536px){
+    #hero-section .banner-head{
+        width: 80%;
+    }
+
+    #gemstone-guide-section .bottom-section h6{
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 992px)
+{
+    #hero-section{
+        padding: 50px 0;
+    }
+    #hero-section .banner-img-div{
+        height: 40vh;
+    }
+    #hero-section .banner-head{
+        font-size: 36px;
+    }
+
+
+    #about-section .about-service-sec{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #about-section .about-service-sec h5{
+        font-size: 18px;
+    }
+
+
+    #gemstone-guide-section .bottom-section h6{
+        width: 80%;
+    }
+    #gemstone-guide-section .guides-items .contents h6{
+        font-size: 18px;
+    }
+    #gemstone-guide-section .guides-items img{
+        width: 12% !important;
+    }
+    
+
+    #igcc-education-section .img-section .img-div{
+        height: 30vh;
+    }
+    #igcc-education-section .img-section{
+        justify-content: center;
+    }
+    #igcc-education-section .right-section{
+        gap: 15px;
+    }
+
+    
+}
+
+
+@media only screen and (max-width: 768px){
+    #hero-section .banner-head{
+        font-size: 24px;
+    }
+    #hero-section .owl-nav{
+        display: none !important;
+    }
+
+    #about-section .about-service-sec {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #about-section .icon{
+        width: 20%;
+    }
+
+
+
+    #cta_section_home{
+        background-position: right;
+    }
+    #cta_section_home .right-side-section{
+        gap: 10px;
+        align-items: center;
+    }
+    #cta_section_home .right-side-section h6{
+        font-size: 16px;
+        font-weight: 300;
+    }
+    #cta_section_home .right-side-section .img-div{
+        display: none;
+        align-items: center;
+        justify-content: center;
+    }
+    #cta_section_home .right-side-section .img-div img{
+        width: 80%;
+    }
+    #cta_section_home .main-para{
+        font-weight: 300 !important;
+    }
+
+
+
+    #gemstone-guide-section .left-section{
+        padding: 0 10px;
+    }
+    #gemstone-guide-section .guides-items img{
+        width: 20% !important;
+    }
+    #gemstone-guide-section .guides-items .contents h6{
+        text-align: center;
+        font-size: 18px;
+    }
+    #gemstone-guide-section .guides-items .contents .main-para{
+        text-align: center;
+    }
+    #gemstone-guide-section .bottom-section h6{
+        font-size: 14px;
+        width: 90%;
+    }
+
+    #igcc-education-section .right-section{
+        padding: 0 10px;
+    }
+
+
+
+    #blogs_section .blog-item .blog-content h6{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    #blogs_section .blog-item .blog-para{
+        font-size: 14px;
+    }
+    #blogs_section .blog-item .alternate-btn{
+        font-size: 12px !important;
+    }
+    #blogs_section .blog-item .blog-content{
+        padding: 15px 0;
+    }
+
+
+}

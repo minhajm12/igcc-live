@@ -1,0 +1,110 @@
+#course_main_section{
+    padding: 5% 0;
+}
+#course_main_section .img-section{
+    display: flex;
+    gap: 30px;
+    justify-content: start;
+}
+#course_main_section .img-section .img-div{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+#course_main_section .img-section .img-div img{
+    transition: .3s ease;
+    object-position: center center;
+}
+#course_main_section .img-section .img-div img:hover{
+    transform: scale(1.1);
+}
+#course_main_section .content-section h2{
+    font-size: 24px !important;
+}
+#course_main_section .content-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+    gap: 10px;
+}
+.course-form-section .form-container{
+    background: #F2F3F4;
+    padding: 50px 60px;
+    margin-top: 50px;
+}
+.course-form-section .form-container form{
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+}
+.course-form-section .input-div{
+    display: flex;
+    flex-direction: column;
+
+}
+.course-form-section .input-div label{
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+.course-form-section input,
+.course-form-section select,
+.course-form-section textarea{
+    padding:10px 20px;
+    border: none;
+    outline: none;
+}
+.course-form-section input::placeholder,
+.course-form-section select::placeholder,
+.course-form-section textarea::placeholder{
+    font-size: 14px;
+}
+
+.course-form-section .input-div label span{
+    color: rgb(224, 0, 0);
+}
+.course-form-section .input-div .opt{
+    font-size: 12px;
+    margin-left: 5px;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px)
+{
+    #course_main_section .img-section{
+        padding: 0 50px;
+    }
+    #course_main_section .content-section{
+        padding: 30px 60px;
+    }
+    .course-form-section .form-container{
+        padding: 40px;
+    }
+}
+
+
+@media only screen and (max-width: 768px)
+{
+    #course_main_section .img-section{
+        padding: 0 ;
+    }
+    #course_main_section .content-section{
+        padding: 20px 10px;
+    }
+    #course_main_section .content-section h2{
+        font-size: 20px !important;
+    }
+    .course-form-section .form-container{
+        margin-top: 20px;
+        padding: 40px 20px;
+    }
+}

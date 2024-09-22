@@ -1,0 +1,63 @@
+#faq_main_section{
+    padding: 5% 0;
+}
+.faq-section{
+    display: flex;
+    justify-content: center;
+}
+.accordion{
+    margin-top: 30px;
+    width: 70%;
+    border: none !important;
+}
+.accordion .accordion-button{
+    border: none;
+    background: #E0E0E0;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+    border-radius: 0 !important;
+    margin-top: 10px;
+}
+.accordion .accordion-button:focus{
+    outline: none;
+    box-shadow: none;
+}
+.accordion .accordion-body{
+    background: #F8F8F8;
+    margin-top: 10px;
+}
+.accordion .accordion-item{
+    border: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px)
+{
+    .accordion{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 768px)
+{
+    #faq_main_section{
+        padding: 8% 0;
+    }
+    .accordion{
+        margin-top: 15px;
+        width: 100%;
+    }
+    .accordion .accordion-button{
+        font-size: 16px;
+    }
+}

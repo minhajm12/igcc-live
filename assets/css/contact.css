@@ -1,0 +1,146 @@
+#contact_main_section{
+    padding: 5% 0;
+}
+#contact_main_section .form-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#contact_main_section .input-div{
+    display: flex;
+    flex-direction: column;
+
+}
+#contact_main_section .input-div label{
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+#contact_main_section input,
+#contact_main_section select,
+#contact_main_section textarea{
+    padding:10px 20px;
+    border: none;
+    outline: none;
+    background: #F5F5F5;
+}
+#contact_main_section input::placeholder,
+#contact_main_section select::placeholder,
+#contact_main_section textarea::placeholder{
+    font-size: 14px;
+}
+#contact_main_section .contact-details{
+    padding-left: 80px;
+}
+#contact_main_section .contact-details .details{
+    display: flex;
+    /* align-items: center; */
+    position: relative;
+    padding: 110px 50px;
+    background:url("../img/contact-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+/* #contact_main_section .details-section .details{
+    position: absolute;
+
+} */
+#contact_main_section .details{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#contact_main_section .details .address-div{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width: 50%;
+}
+#contact_main_section .details img{
+    margin-top: 3px;
+}
+#contact_main_section .details h6{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+#contact_main_section .details p{
+    color: #fff;
+}
+#contact_main_section .address-div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+#contact_main_section .address-div .phone{
+    font-weight: 800;
+}
+
+#contact_main_section .mapsection{
+    padding-top: 8%;
+}
+#contact_main_section .mapsection iframe{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1366px){
+    #contact_main_section .contact-details{
+        padding-left: 40px;
+    }
+}
+@media only screen and (max-width: 992px){
+    #contact_main_section .form-section{
+        padding: 0 50px;
+    }
+    #contact_main_section .contact-details{
+        padding: 0 50px;
+        margin-top: 40px;
+    }
+    #contact_main_section .contact-details .details{
+        padding: 60px 40px;
+    }
+    #contact_main_section .mapsection{
+        padding: 5% 40px;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    #contact_main_section .form-section{
+        padding: 0 14px;
+    }
+    #contact_main_section .contact-details{
+        padding: 0 15px;
+    }
+    #contact_main_section .details .address-div{
+        width: 100%;
+    }
+    #contact_main_section .contact-details .details{
+        background: #000;
+    }
+    #contact_main_section .mapsection{
+        padding: 0 10px;
+        margin-top: 50px;
+    }
+    #contact_main_section .mapsection iframe{
+        height: 20vh;
+    }
+}
