@@ -327,7 +327,7 @@
   }
   .main-para{
     /* font-size: 16px; */
-    /* line-height: 18px; */
+    line-height: 20px;
     font-weight: 400;
   }
 
@@ -375,5 +375,9 @@
 }
 
 @media only screen and (max-width: 380px){
-
+  .main-para{
+    /* font-size: 16px; */
+    line-height: 18px;
+    /* font-weight: 400; */
+  }
 }
