@@ -153,4 +153,15 @@
     .careers-grid-section .career-item {
         padding: 20px;
     }
+    #career_modal .modal-dialog {
+        max-width: 100% !important;
+    }
+
+    #career_modal .modal-content {
+        padding: 50px 8% !important;
+    }
+
+    #career_modal .modal-content h2 {
+        font-size: 18px;
+    }
 }
