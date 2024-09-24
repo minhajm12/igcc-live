@@ -1,0 +1,156 @@
+#careers_main_section{
+    padding: 5% 0 8% 0;
+}
+.careers-grid-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+.careers-grid-section .career-item{
+    padding: 30px;
+    background: #fafafa;
+    border: 1px solid #00000020;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+}
+.career-item h6{
+    font-weight: 700;
+    font-size: 22px;
+}
+.career-item .main-para{
+    font-size: 16px !important;
+    line-height: 18px;
+}
+.career-item .details{
+    display: flex;
+    flex-direction: column;
+    /* gap: 3px; */
+}
+.career-item .details p{
+    font-size: 16px;
+}
+.career-item .details p span{
+    font-weight: 700;
+    margin-left: 10px;
+}
+.career-item .main-btn{
+    width: 60%;
+    position: absolute;
+    bottom: -20px;
+    text-align: center;
+}
+.career-item .main-btn:hover{
+    background: #fff;
+}
+#career_modal .modal-content {
+    padding: 50px 12% !important;
+}
+#career_modal .btn-close{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    box-shadow: none !important;
+}
+.modal-dialog {
+    max-width: 40% !important;
+}
+
+#career_modal .modal-content h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#career_modal .input-div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#career_modal .input-div label {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+#career_modal input,
+#career_modal select,
+#career_modal textarea {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background: #F5F5F5;
+}
+
+#career_modal input::placeholder,
+#career_modal select::placeholder,
+#career_modal textarea::placeholder {
+    font-size: 14px;
+}
+#career_modal .upload
+{
+    position: relative;
+    cursor: pointer;
+}
+#career_modal .upload-resume
+{
+    position: absolute;
+    width: 100%;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #000;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px){
+    .careers-grid-section{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 20px;
+        row-gap: 40px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .careers-grid-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 40px;
+    }
+    .career-item h6{
+        font-size: 18px;
+    }
+    .career-item .details p{
+        font-size: 14px;
+    }
+    #careers_main_section {
+        padding: 5% 8%;
+    }
+    .careers-grid-section .career-item {
+        padding: 20px;
+    }
+}

@@ -31,6 +31,11 @@
 
   body{
     font-family: 'sora';
+    /* overflow-x: hidden !important; */
+    padding: 0 !important;
+  }
+  html{
+    overflow-x: hidden;
   }
 
   .main-padding{
@@ -245,6 +250,11 @@
       margin: 0;
     }
 
+
+
+    .modal{
+      overflow-x: hidden;
+    }
 
 
   @media screen and (max-width: 1536px){
