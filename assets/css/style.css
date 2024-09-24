@@ -31,7 +31,7 @@
 
   body{
     font-family: 'sora';
-    /* overflow-x: hidden !important; */
+    overflow-x: hidden !important;
     padding: 0 !important;
   }
   html{
@@ -112,8 +112,11 @@
     color: #000;
   }
   .nav-open{
-    padding: 10px;
+    padding: 8px 10px;
     background: #000;
+  }
+  .nav-open img{
+    width: 20px;
   }
 
 
@@ -394,5 +397,18 @@
   #footer_section .address-col .nav-link{
     padding: 5px 15px;
     font-size: 14px;
+  }
+
+  #footer_section ul li a,
+  #footer_section .address-details p,
+  #footer_section .address-details a{
+    font-size: 14px;
+  }
+  #footer_section h5{
+    font-size: 18px;
+  }
+
+  #footer_section .copyright-section p{
+    font-size: 12px;
   }
 }
